@@ -6,11 +6,21 @@
             "email": "jeffrey@jeffrey-way.com"
         }
     ],
-    "require": {},
+    "require": {
+        "illuminate/collections": "^10.9"
+    },
     "autoload": {
         "psr-4": {
             "Core\\": "Core/",
             "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
         }
     }
 }
