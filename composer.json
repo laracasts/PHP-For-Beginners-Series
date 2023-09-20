@@ -1,26 +1,27 @@
 {
-    "name": "jeffreyway/demo",
-    "authors": [
-        {
-            "name": "Jeffrey Way",
-            "email": "jeffrey@jeffrey-way.com"
-        }
-    ],
-    "require": {
-        "illuminate/collections": "^10.9"
-    },
-    "autoload": {
-        "psr-4": {
-            "Core\\": "Core/",
-            "Http\\": "Http/"
-        }
-    },
-    "require-dev": {
-        "pestphp/pest": "^2.5"
-    },
-    "config": {
-        "allow-plugins": {
-            "pestphp/pest-plugin": true
-        }
+  "name": "jeffreyway/demo",
+  "authors": [
+    {
+      "name": "Jeffrey Way",
+      "email": "jeffrey@jeffrey-way.com"
     }
+  ],
+  "require": {
+    "illuminate/collections": "^10.9",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.5"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
 }
